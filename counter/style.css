@@ -1,0 +1,12 @@
+body{
+    background-color: aquamarine;
+}
+
+main{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    place-items: center;
+    height: 100vh;
+}
+
