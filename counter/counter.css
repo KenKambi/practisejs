@@ -1,5 +1,8 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(47, 97, 80);
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    
 }
 
 main{
@@ -8,5 +11,6 @@ main{
     flex-direction: column;
     place-items: center;
     height: 100vh;
+    
 }
 
