@@ -40,14 +40,17 @@ peoples.forEach((people) =>{
 
 
 
-function boxContent(){
-    textContent.innerHTML = people;
 
-}
 
 document.getElementById('back').addEventListener('click', () => {
     console.log('OK');
 
 
 });
+
+
+function supriseMe(){
+    const red = (Math.random());
+    console.log(red);
+};
 
