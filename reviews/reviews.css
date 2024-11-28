@@ -1,0 +1,11 @@
+.review-box{
+    background-color: aqua;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.box{
+    display: grid;
+    place-items: center;
+}
