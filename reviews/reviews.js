@@ -19,23 +19,35 @@ peoples.forEach((people) =>{
     //console.log(peoples[1]);
 
     textContent += `
-        <div class="box">
+        <div class="box js-box">
             
-                <div> ${peoples.name}</div>
-                <span> ${peoples.rank}</span>
+                <div> ${people.name}</div>
+                <span> ${people.rank}</span>
 
                 <p>
-                    ${peoples.text}
+                    ${people.text}
                 </p>
 
                 
             </div>
     `;
-    console.log(people);
+    
+    //textContent.innerHTML = people;
+    document.querySelectorAll('.js-box').innerHTML = textContent;
+
+    console.log(textContent);
 });
+
+
+
+function boxContent(){
+    textContent.innerHTML = people;
+
+}
 
 document.getElementById('back').addEventListener('click', () => {
     console.log('OK');
+
 
 });
 
