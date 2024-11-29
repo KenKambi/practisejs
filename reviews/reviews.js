@@ -39,16 +39,19 @@ peoples.forEach((people) =>{
     `;
     
     //textContent.innerHTML = people;
-    document.querySelectorAll('.js-box').innerHTML = textContent;
 
-    console.log(textContent);
 });
+
+document.querySelectorAll('.js-box').innerHTML = textContent;
+console.log(textContent);
+
 
 
 
 
 
 document.getElementById('back').addEventListener('click', () => {
+
     console.log('Back');
 
 
