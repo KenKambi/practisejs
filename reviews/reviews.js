@@ -11,6 +11,12 @@ const peoples = [{
     rank: "Intern",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sagittis iaculis iaculis. Nullam feugiat fringilla varius. Ut vitae arcu quis dui malesuada facilisis."
 
+},
+{
+    name: "Doe John",
+    rank: "Intern",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sagittis iaculis iaculis. Nullam feugiat fringilla varius. Ut vitae arcu quis dui malesuada facilisis."
+
 }];
 
 let textContent = '';
