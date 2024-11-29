@@ -21,15 +21,15 @@ peoples.forEach((people) =>{
     textContent += `
         <div class="box js-box">
             
-                <div> ${people.name}</div>
-                <span> ${people.rank}</span>
+            <div> ${people.name}</div>
+            <span> ${people.rank}</span>
 
-                <p>
-                    ${people.text}
-                </p>
+            <p>
+                ${people.text}
+            </p>
 
                 
-            </div>
+        </div>
     `;
     
     //textContent.innerHTML = people;
@@ -43,14 +43,18 @@ peoples.forEach((people) =>{
 
 
 document.getElementById('back').addEventListener('click', () => {
-    console.log('OK');
+    console.log('Back');
 
 
 });
 
+document.getElementById('next').addEventListener('click', () => {
+    console.log('Next');
+})
+
 
 function supriseMe(){
-    const red = (Math.random());
-    console.log(red);
+    //const red = (Math.random());
+    //console.log(red);
 };
 
