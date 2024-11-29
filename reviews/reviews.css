@@ -11,3 +11,7 @@
     display: grid;
     place-items: center;
 }
+
+span{
+    cursor:pointer;
+}
