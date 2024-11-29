@@ -51,7 +51,6 @@ console.log(textContent);
 
 
 document.getElementById('back').addEventListener('click', () => {
-
     console.log('Back');
 
 
