@@ -22,10 +22,15 @@ main{
     background-color: lightcoral;
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 
+.tag{
+    margin: 10px;
+}
 
 .btn{
     top: 70px;
+    margin-top: 10px;;
 
 }
