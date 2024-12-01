@@ -1,4 +1,5 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: grey;
     display:grid;
     place-items: center;
@@ -6,7 +7,7 @@ body {
 }
 
 .head{
-    background-color: lightblue;
+    background-color: #EB132A;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -19,18 +20,27 @@ body {
 }
 
 main{
-    background-color: lightcoral;
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
 }
 
 .tag{
-    margin: 10px;
+    margin: 0px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    height: 25px;
+    border-radius: 10px;
+
 }
 
 .btn{
     top: 70px;
-    margin-top: 10px;;
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
 
 }
