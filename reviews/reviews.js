@@ -25,7 +25,7 @@ peoples.forEach((people) =>{
     //console.log(peoples[1]);
 
     textContent += `
-        <div class="box js-box">
+        <div class="box ">
             
             <div> ${people.name}</div>
             <span> ${people.rank}</span>
@@ -42,7 +42,7 @@ peoples.forEach((people) =>{
 
 });
 
-document.querySelectorAll('.js-box').innerHTML = textContent;
+document.querySelector('.js-box').innerHTML = textContent;
 console.log(textContent);
 
 
