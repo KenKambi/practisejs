@@ -16,9 +16,6 @@ main{
     height: 100vh;
 }
 
-.rr{
-    background-color: red;
-}
 
 
 .box{
@@ -26,7 +23,8 @@ main{
     place-items: center;
 }
 
-span{
+span,
+button{
     cursor:pointer;
 }
 
