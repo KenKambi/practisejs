@@ -42,7 +42,8 @@ peoples.forEach((people) =>{
 
 });
 
-document.querySelector('.js-box').innerHTML = textContent;
+let innerText = document.querySelector('.js-box')
+innerText.innerHTML = textContent;
 console.log(textContent);
 
 
@@ -66,4 +67,8 @@ function supriseMe(){
     //const red = (Math.random());
     //console.log(red);
 };
+
+document.getElementById('suprise').addEventListener('click', () => {
+    console.log('Dandom');
+});
 
