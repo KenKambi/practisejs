@@ -69,6 +69,6 @@ function supriseMe(){
 };
 
 document.getElementById('suprise').addEventListener('click', () => {
-    console.log('Dandom');
+    console.log('Random');
 });
 
