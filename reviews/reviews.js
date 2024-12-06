@@ -1,4 +1,3 @@
-//alert('Hello');
 
 const peoples = [{
     name: "Peter Jones",
