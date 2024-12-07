@@ -37,7 +37,6 @@ peoples.forEach((people) =>{
         </div>
     `;
     
-    //textContent.innerHTML = people;
 
 });
 
