@@ -21,7 +21,6 @@ const peoples = [{
 let textContent = '';
 
 peoples.forEach((people) =>{
-    //console.log(peoples[1]);
 
     textContent += `
         <div class="box ">
