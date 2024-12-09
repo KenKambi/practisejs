@@ -1,4 +1,4 @@
-//alert('Hello');
+
 
 //bring the html to javascript
 const runNumber = document.querySelector('.js-number');
