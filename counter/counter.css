@@ -32,8 +32,10 @@ main{
     border-radius: 5px;
     border: 1px solid gray;
     cursor: pointer;
+    transition: hover 1s;
 }
 
 button:hover {
-    background-color: pink;
+    background-color: rgb(70, 93, 102);
+    color: white;
 }
