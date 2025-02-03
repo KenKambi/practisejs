@@ -18,45 +18,40 @@ const peoples = [{
 
 }];
 
-let textContent = '';
+const nameOfPerson = document.querySelector('.name');
 
-peoples.forEach((people) =>{
 
-    textContent += `
-        <div class="box ">
-            
-            <div> ${people.name}</div>
-            <span> ${people.rank}</span>
+let currentItem = 0;
 
-            <p>
-                ${people.text}
-            </p>
-
-                
-        </div>
-    `;
-    
-
+window.addEventListener('DOMContentLoaded', () => {
+    showPerson();
 });
 
-let innerText = document.querySelector('.js-box')
-innerText.innerHTML = textContent;
-console.log(textContent);
-
-
-
-
-
+function showPerson(){
+    const item = peoples[currentItem];
+    nameOfPerson.textContent = item.name;
+}
 
 document.getElementById('back').addEventListener('click', () => {
     console.log('Back');
-    
+    let back = peoples[currentItem --];
+    if (currentItem < 0 ){
+        currentItem = peoples.length -1;
+    };
+    showPerson();
+
 
 
 });
 
 document.getElementById('next').addEventListener('click', () => {
     console.log('Next');
+    let next = peoples[currentItem ++];
+    if (currentItem > peoples.length -1 ){
+        currentItem = 0;
+    };
+    showPerson();
+
 })
 
 
