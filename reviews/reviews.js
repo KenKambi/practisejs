@@ -32,6 +32,12 @@ function showPerson(){
     nameOfPerson.textContent = item.name;
 }
 
+document.getElementById('suprise').addEventListener('click', () => {
+    console.log('Random');
+    currentItem = (Math.floor(Math.random() * peoples.length));
+    showPerson();
+});
+
 document.getElementById('back').addEventListener('click', () => {
     console.log('Back');
     let back = peoples[currentItem --];
@@ -54,11 +60,4 @@ document.getElementById('next').addEventListener('click', () => {
 
 })
 
-
-
-document.getElementById('suprise').addEventListener('click', () => {
-    console.log('Random');
-    currentItem = (Math.floor(Math.random() * peoples.length));
-    showPerson();
-});
 
