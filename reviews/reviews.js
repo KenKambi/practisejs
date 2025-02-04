@@ -55,14 +55,10 @@ document.getElementById('next').addEventListener('click', () => {
 })
 
 
-function supriseMe(){
-    const red = Math.random();
-    console.log(red);
-};
-
-console.log(Math.floor(Math.random()*10));
 
 document.getElementById('suprise').addEventListener('click', () => {
     console.log('Random');
+    currentItem = (Math.floor(Math.random() * peoples.length));
+    showPerson();
 });
 
