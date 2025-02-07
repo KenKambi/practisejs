@@ -4,26 +4,30 @@
 */
 
 .preloader{
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     visibility: visible;
-    z-index: 999;
+    transition: var(--transition);
+    z-index: -100;
 };
 
 .hide-preloader{
     visibility: hidden;
-    z-index: -999;
+    z-index: 100;
+    
 
 }
 
 .heading {
-    position: relative;
+    position: relativ;
     color: green;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh
+    height: 100vh;
+    z-index: 1000;
 };
 
 .video{
