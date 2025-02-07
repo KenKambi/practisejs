@@ -5,4 +5,4 @@ const controlBtn = document.querySelector(".btn");
 
 controlBtn.addEventListener("click", () => {
     videoControl.pause();
-})
+});
