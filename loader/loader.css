@@ -3,6 +3,12 @@
 };
 */
 
+.preloader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .heading {
     position: relative;
     color: green;
