@@ -7,6 +7,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    visibility: visible;
+    z-index: 999;
+};
+
+.hide-preloader{
+    visibility: hidden;
+    z-index: -999;
+
 }
 
 .heading {
