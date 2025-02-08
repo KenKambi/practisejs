@@ -8,6 +8,7 @@ const preloader = document.querySelector(".preloader");
 
 controlBtn.addEventListener("click", () => {
     videoControl.pause();
+    console.log("Video Paused");
 });
 
 window.addEventListener('load', ()=>{
