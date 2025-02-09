@@ -1,6 +1,6 @@
 //alert("Hello");
 
-const videoControl = document.querySelector("video");
+const videoControl = document.querySelector(".video");
 const btnControl = document.querySelector(".btn");
 const preloader = document.querySelector(".preloader");
 
