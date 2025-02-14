@@ -5,6 +5,7 @@ let btnControl = document.querySelector(".btn");
 let preloader = document.querySelector(".preloader");
 let txt = document.querySelector('.text');
 
+//Click button to pause the video
 btnControl.addEventListener("click", () => {
   videoControl.pause();
   //console.log(preloader.classList.toggle('hide-preloader'));
@@ -15,3 +16,5 @@ btnControl.addEventListener("click", () => {
 window.addEventListener("load", () => {
   preloader.classList.add("hide-preloader");
 });
+
+
