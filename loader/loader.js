@@ -8,7 +8,7 @@ let txt = document.querySelector('.text');
 //Click button to pause the video
 btnControl.addEventListener("click", () => {
   videoControl.pause();
-  //console.log(preloader.classList.toggle('hide-preloader'));
+ 
   console.log("Video Paused");
   txt.classList.toggle('text-change');
 });
