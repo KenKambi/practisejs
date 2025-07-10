@@ -9,7 +9,7 @@ let txt = document.querySelector('.text');
 btnControl.addEventListener("click", () => {
   videoControl.pause();
  
-  console.log("Video Paused");
+  //console.log("Video Paused");
   txt.classList.toggle('text-change');
 });
 
