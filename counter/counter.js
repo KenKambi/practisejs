@@ -5,7 +5,7 @@ const decrease = document.getElementById('dec');
 const reset = document.getElementById('reset');
 const increase = document.getElementById('inc');
 
-//functions for each button on click event
+//functions for each button
 decrease.addEventListener('click', () => {
     const ans = (runNumber.textContent-1);
     //console.log(ans);
