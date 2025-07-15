@@ -5,7 +5,7 @@ const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
 const text = document.querySelector('.js-hex-code');
 
 document.getElementById('click').addEventListener('click', () => {
-    //generate other 6 values for the hexcode#
+   
     let hexy = '#';
     for(let i=0; i<6; i++){
         hexy += hex[getRandomNumber()];
