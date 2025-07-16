@@ -8,7 +8,7 @@ const increase = document.getElementById('inc');
 //functions for each button
 decrease.addEventListener('click', () => {
     const ans = (runNumber.textContent-1);
-    //console.log(ans);
+  
     runNumber.textContent = ans;
 });
 
