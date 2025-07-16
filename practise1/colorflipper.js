@@ -24,6 +24,5 @@ function getRandomNumber(){
     
 }
 
-//console.log( Math.floor(Math.random()*hex.length));
 
 
