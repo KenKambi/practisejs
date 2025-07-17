@@ -28,13 +28,13 @@ function showPerson() {
   const item = peoples[currentItem];
   nameOfPerson.textContent = item.name;
 }
-
+//suprise 
 document.getElementById("suprise").addEventListener("click", () => {
   console.log("Random");
   currentItem = Math.floor(Math.random() * peoples.length);
   showPerson();
 });
-
+//back
 document.getElementById("back").addEventListener("click", () => {
   console.log("Back");
   let back = peoples[currentItem--];
@@ -43,7 +43,7 @@ document.getElementById("back").addEventListener("click", () => {
   }
   showPerson();
 });
-
+//next
 document.getElementById("next").addEventListener("click", () => {
   console.log("Next");
   let next = peoples[currentItem++];
