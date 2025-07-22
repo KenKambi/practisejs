@@ -1,4 +1,4 @@
-//alert("Hello");
+
 
 let videoControl = document.querySelector(".video");
 let btnControl = document.querySelector(".btn");
