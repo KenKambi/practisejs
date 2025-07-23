@@ -1,4 +1,3 @@
-
 //bring the html to javascript
 const runNumber = document.querySelector('.js-number');
 const decrease = document.getElementById('dec');
