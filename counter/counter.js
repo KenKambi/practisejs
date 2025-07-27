@@ -16,6 +16,7 @@ reset.addEventListener('click', () => {
     runNumber.textContent = 0;
 });
 
+//increase 
 increase.addEventListener('click', () => {
     const currentNo = parseInt(runNumber.textContent);
     const newNo = (currentNo + 1);
