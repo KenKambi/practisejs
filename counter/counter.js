@@ -6,12 +6,14 @@ const reset = document.getElementById('reset');
 const increase = document.getElementById('inc');
 
 //functions for each button
+//decrease 
 decrease.addEventListener('click', () => {
     const ans = (runNumber.textContent-1);
   
     runNumber.textContent = ans;
 });
 
+//reset 
 reset.addEventListener('click', () => {
     runNumber.textContent = 0;
 });
